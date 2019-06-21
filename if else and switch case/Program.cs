@@ -19,6 +19,12 @@ namespace if_else_and_switch_case
                 Console.ReadLine();
 
             }
+
+            if(username.Equals("Batuhan1") && password.Equals("123"))
+            {
+                Console.WriteLine("Hello world");
+                Console.ReadLine();
+            }
             else if(username.Equals("Mehmet") && password.Equals("1919"))
             {
                 Console.WriteLine("Hello Moderator!");
